@@ -1,22 +1,5 @@
-Jillian you suck
-I'm very confused but it seems like I'll get the grip of this crap shortly
-Yours truly, 
-Daniel
 
-
-
-....................../´¯/) 
-....................,/¯../ 
-.................../..../ 
-............./´¯/'...'/´¯¯`·¸ 
-........../'/.../..../......./¨¯\ 
-........('(...´...´.... ¯~/'...') 
-.........\.................'...../ 
-..........''...\.......... _.·´ 
-............\..............( 
-..............\.............\...
-
-Anyway,... because I worked with 3 computers everything was all messed up but because you helped me everything seems nice now.
+I worked with 3 computers and everything was all messed up but because you helped me everything seems nice now.
 So, after creating my files i check my git status and noticed that I had a couple of files in 1 of the 3 folders I have in my R_projects file in my desktop.
 Because I already created the files you asjed me for,  I directly jumped into "git init" to initiate the git repository
 I checked my git status and then use the "git add" to add all the crap I need to add...
@@ -30,8 +13,3 @@ Note to self: When doing the previous step, forgot to add the .git add the end a
 I checked my git remote... git remote -v
 
 Now it seems like I'm ready to finally push ^-^ 
-
-
-
-
-Fir
