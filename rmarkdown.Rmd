@@ -1,9 +1,0 @@
----
-title: "Homework"
-author: "Daniel Acuna"
-date: "Wednesday, September 16, 2015"
-output: html_document
----
-
-Writting some stuff so I can see it and now hopefully push it properly to 
-gethub... gee hopefully it works
