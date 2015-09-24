@@ -1,0 +1,1 @@
+Read me file cause I have no clue of what i'm doing
