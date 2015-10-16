@@ -40,22 +40,40 @@ Ugh! Can't fit only one. It's fitting for each continent...
 
 Plot 4 
 ```{r}
-h <- ggplot(data = gapminder, aes(x = log(gdpPercap), y = lifeExp,
-                             colour = continent)) + 
-  geom_density(aes(shape = continent))
-h + facet_grid(.~cyl)
+h <- ggplot(data = gapminder, aes(x = lifeExp)) + 
+  geom_density(aes(fill = continent))
+h + facet_wrap(~year)
 ```
 
-Plot 6
+
+Part II
+use dplyr to calculate summary statistics
+the function subset() may be useful (not necessary, just letting you know 
+of a handy function)
 
 ```{r, echo=FALSE}
 library(dplyr)
 ```
 
+Plot 6
+
+```{r}
+ggplot(data = gapminder, aes(x = lifeExp)) + 
+  geom_density(aes(fill = continent, alpha = 0.1))
+```
+
+Plot 7
+Plot the mean life expectancy on a density plot for Asia
+
+I want to work with only Asia, so technically I'd have to do something like this
+gapminder$continent == 'Asia'
+Running this command will only provide me with a TRUE and FALSE matrix 
+Now, I need to only graph the mean lifeExp in Asia.
+Again, I should first filter Asia and then graph the values for the lifeExp.
+Subset allows me to graph only what I'm interested in graphing
 
 ```{r}
 
-ggplot(data = gapminder, aes(x = log(gdpPercap), y = lifeExp,
-                             colour = continent)) + 
-  geom_area()
+ggplot(data = subset (gapminder, continent == 'Asia'), aes(x = lifeExp) +
+         geom_density()
 ```
